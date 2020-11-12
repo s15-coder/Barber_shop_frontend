@@ -1,0 +1,61 @@
+.background {
+    position: absolute;
+    z-index: -10;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cont-form {
+    border-radius: 3vw;
+    align-content: center;
+    width: min-content;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 6vh 3vw 4vh;
+    background-color: white;
+}
+
+.merlin_icon {
+    display: block;
+    border-radius: 100vw; 
+    margin: auto;
+    width: 50vw;
+}
+
+.field {
+    padding: 1vw 0;
+    position: relative;
+    display: block;
+    margin: auto;
+    outline: none;
+    font-size: 6vw;
+}
+
+.password , .email{
+    padding-left: 10vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.button{
+    padding: 1vh 2vw;
+
+    background-color: wheat;
+}
+.password{
+    background-position-x: 2vw;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 5vw;
+    background-image: url("https://www.flaticon.com/svg/static/icons/svg/3064/3064197.svg");
+}
+.email{
+    
+    background-position-x: 2vw;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 5vw;
+    background-image: url("https://www.flaticon.com/svg/static/icons/svg/3064/3064197.svg");
+
+}
