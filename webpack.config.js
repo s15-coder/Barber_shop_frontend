@@ -8,8 +8,6 @@ module.exports = {
         index: "./src/js/pages/index.js",
         login_desktop: "./src/js/pages/login_desktop.js",
         login_movil: "./src/js/pages/login_movil.js",
-        // login: "./src/js/pages/login.js",
-        // home: "./src/js/pages/home.js",
     },
     output: {
         filename: "js/[name].[contentHash].js"
